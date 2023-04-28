@@ -1,0 +1,6 @@
+sudo iptables -P INPUT DROP
+
+sudo iptables -P OUTPUT DROP
+
+sudo iptables -L -v -n
+
